@@ -103,6 +103,25 @@ button:hover{
 
 }
 
+@media only screen and (max-width:900px) {
+    .nav-buttons{
+        margin: 10px;
+
+    }
+    .nav-buttons ul{
+        margin: 1rem;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: left;
+
+    }
+
+    .nav-buttons ul .fas{
+        margin: 20px 5px 10px 20px;
+
+    }
+
+}
 #home{
     background-image: url("../imgs/winter.jpg");
     width: 100%;
